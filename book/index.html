@@ -4,139 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayudh</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            text-align: center;
-        }
-        header {
-            background-color: #0073e6;
-            color: white;
-            padding: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .logo {
-            width: 100px;
-            height: 100px;
-        }
-        .search-bar {
-            flex-grow: 1;
-            margin: 0 20px;
-        }
-        .search-bar input {
-            width: 60%;
-            padding: 8px;
-            border-radius: 5px;
-            border: none;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        .user-info {
-            font-size: 14px;
-        }
-        main {
-            padding: 20px;
-        }
-        #book-list {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-top: 50px;
-        }
-         #book-list h2 {
-            text-align: center;
-            width: 100%;
-
-         }
-    
-        .book {
-            background-color: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            width: 200px;
-        }
-        .book img {
-            width: 100px;
-            height: 150px;
-        }
-        .footer{
-            margin-top: 30px;
-            text-align: center;
-        }
-        .book h2{
-            text-align: center;
-            color: #333;
-            text-shadow: #666 (2px, 2px, 2px);
-        }
-        .book h3 {
-            color: #333;
-        }
-        .book p {
-            color: #666;
-        }
-        .price {
-            color: red;
-            font-weight: bold;
-        }
-        .book button {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .book button:hover {
-            background-color: #218838;
-        }
-        .author-section {
-            margin-top: 30px;
-            text-align: center;
-        }
-        .author {
-            display: inline-block;
-            text-align: center;
-            margin: 20px;
-        }
-        .author img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-        footer {
-            background-color: #0073e6;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <img src="WhatsApp_Image_2025-02-24_at_22.38.27_4724dc37-removebg-preview.png" alt="Logo" class="logo">
+        <img src="assets/images/WhatsApp_Image_2025-02-24_at_22.38.27_4724dc37-removebg-preview.png" alt="Logo" class="logo">
         <div class="search-bar">
             <input type="text" placeholder="Search for books...">
         </div>
@@ -158,28 +30,28 @@
         <section id="book-list">
             <h2>Available Books</h2>
             <div class="book">
-                <img src="a1.jpg" alt="Moment's We Couldn't Speek ">
+                <img src="assets/images/a1.jpg" alt="Moment's We Couldn't Speek ">
                 <h3>Moment's We Couldn't Speek</h3>
                 <p>Author: Aman Chudhary</p>
                 <p class="price">Price: $10 <span>(23% OFF)</span></p>
                 <button onclick="viewDetails(1)">View Details</button>
             </div>
             <div class="book">
-                <img src="a2.jpg" alt="Book 2">
+                <img src="assets/images/a2.jpg" alt="Book 2">
                 <h3>Ram:Scion of Isvaku</h3>
                 <p>Author: Amish Tripathi</p>
                 <p class="price">Price: $15 <span>(25% OFF)</span></p>
                 <button onclick="viewDetails(2)">View Details</button>
             </div>
             <div class="book">
-                <img src="a3.jpg" alt="Moment's We Couldn't Speek ">
+                <img src="assets/images/a3.jpg" alt="Moment's We Couldn't Speek ">
                 <h3>Suheldev</h3>
                 <p>Author: Amish Tripathi</p>
                 <p class="price">Price: $30 <span>(43% OFF)</span></p>
                 <button onclick="viewDetails(3)">View Details</button>
             </div>
             <div class="book">
-                <img src="a4.jpg" alt="Moment's We Couldn't Speek ">
+                <img src="assets/images/a4.jpg" alt="Moment's We Couldn't Speek ">
                 <h3>Sita:Warior of Mithila </h3>
                 <p>Author: Amish Tripathi</p>
                 <p class="price">Price: $17 <span>(29% OFF)</span></p>
@@ -189,28 +61,28 @@
         <section id="book-list">
             <h2>Books by Amish</h2>
             <div class="book">
-                <img src="a1.jpg" alt="Moment's We Couldn't Speek ">
+                <img src="assets/images/a1.jpg" alt="Moment's We Couldn't Speek ">
                 <h3>Moment's We Couldn't Speek</h3>
                 <p>Author: Aman Chudhary</p>
                 <p class="price">Price: $10 <span>(23% OFF)</span></p>
                 <button onclick="viewDetails(1)">View Details</button>
             </div>
             <div class="book">
-                <img src="a2.jpg" alt="Book 2">
+                <img src="assets/images/a2.jpg" alt="Book 2">
                 <h3>Ram:Scion of Isvaku</h3>
                 <p>Author: Amish Tripathi</p>
                 <p class="price">Price: $15 <span>(25% OFF)</span></p>
                 <button onclick="viewDetails(2)">View Details</button>
             </div>
             <div class="book">
-                <img src="a3.jpg" alt="Moment's We Couldn't Speek ">
+                <img src="assets/images/a3.jpg" alt="Moment's We Couldn't Speek ">
                 <h3>Suheldev</h3>
                 <p>Author: Amish Tripathi</p>
                 <p class="price">Price: $30 <span>(43% OFF)</span></p>
                 <button onclick="viewDetails(3)">View Details</button>
             </div>
             <div class="book">
-                <img src="a4.jpg" alt="Moment's We Couldn't Speek ">
+                <img src="assets/images/a4.jpg" alt="Moment's We Couldn't Speek ">
                 <h3>Sita:Warior of Mithila </h3>
                 <p>Author: Amish Tripathi</p>
                 <p class="price">Price: $17 <span>(29% OFF)</span></p>
@@ -220,22 +92,22 @@
         <section class="author-section">
             <h2>Author Details</h2>
             <div class="author">
-                <img src="author1.jpg" alt="Author 1">
+                <img src="assets/images/author1.jpg" alt="Author 1">
                 <p>Aman Chudhary</p>
                 <p>Famous for writing at <br> childhood livelihood</p>
             </div>
             <div class="author">
-                <img src="author2.jpg" alt="Author 2">
+                <img src="assets/images/author2.jpg" alt="Author 2">
                 <p>Amish Tripathi</p>
                 <p>Specializes in historical <br> fiction.</p>
             </div>
             <div class="author">
-                <img src="author3.jpg" alt="Author 2">
+                <img src="assets/images/author3.jpg" alt="Author 2">
                 <p>APJ Kalam</p>
                 <p>Specialized in <br> subjective & Objective writing</p>
             </div>
             <div class="author">
-                <img src="author4.jpg" alt="Author 2">
+                <img src="assets/images/author4.jpg" alt="Author 2">
                 <p>HC Verma</p>
                 <p>Specializes in <br>modern Physics.</p>
             </div>
@@ -247,6 +119,6 @@
         <p>&copy; 2025 Ayudh. All rights reserved.</p>
     </footer>
     
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

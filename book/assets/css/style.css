@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+.search-bar input {
+    width: 60%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.user-info {
+    font-size: 14px;
+}
+main {
+    padding: 20px;
+}
+#book-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+ #book-list h2 {
+    text-align: center;
+    width: 100%;
+
+ }
+
+.book {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+.book img {
+    width: 100px;
+    height: 150px;
+}
+.footer{
+    margin-top: 30px;
+    text-align: center;
+}
+.book h2{
+    text-align: center;
+    color: #333;
+    text-shadow: #666 (2px, 2px, 2px);
+}
+.book h3 {
+    color: #333;
+}
+.book p {
+    color: #666;
+}
+.price {
+    color: red;
+    font-weight: bold;
+}
+.book button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.book button:hover {
+    background-color: #218838;
+}
+.author-section {
+    margin-top: 30px;
+    text-align: center;
+}
+.author {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+.author img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
